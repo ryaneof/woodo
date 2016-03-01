@@ -1,0 +1,5 @@
+<div class="photo-swipe-wrapper">
+  {{#photo-swipe options=photoSwipeOptions items=photos as |img|}}
+    <img class="photo-swipe-thumbnail" src={{img.src}} alt={{img.title}} />
+  {{/photo-swipe}}
+</div>

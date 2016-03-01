@@ -1,0 +1,67 @@
+@font-face {
+  font-family: "SourceSerifPro";
+  src: url(/fonts/SourceSerifPro-ExtraLight.ttf) format('truetype');
+  font-weight: 100;
+}
+
+@font-face {
+  font-family: "SourceSerifPro";
+  src: url(/fonts/SourceSerifPro-Regular.ttf) format('truetype');
+  font-weight: 400;
+}
+
+html, body {
+  font-family: "SourceSerifPro", serif;
+  -webkit-font-smoothing: antialiased;
+  font-size: 62.5%;
+}
+
+a {
+  color: #999;
+  text-decoration: none;
+  cursor: pointer;
+  transition: opacity linear 0.25s;
+}
+
+a:hover,
+a:active {
+  opacity: 0.75;
+}
+
+.app-title {
+  text-align: center;
+  font-size: 4.8rem;
+  line-height: 12rem;
+  font-weight: 100;
+}
+
+.app-title a {
+  color: #666;
+}
+
+.app-footer {
+  margin: 12rem auto;
+  text-align: center;
+  font-size: 1.6rem;
+  color: #666;
+}
+
+.photo-swipe-wrapper {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.photo-swipe-thumbnail {
+  height: 24rem;
+}
+
+.page-about {
+  font-size: 1.6rem;
+  line-height: 4.8rem;
+  text-align: center;
+}
+

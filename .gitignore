@@ -1,4 +1,6 @@
-# See http://help.github.com/ignore-files/ for more about ignoring files.
+# static files
+
+/public/images/
 
 # compiled output
 /dist
@@ -9,6 +11,7 @@
 /bower_components
 
 # misc
+.DS_Store
 /.sass-cache
 /connect.lock
 /coverage/*
