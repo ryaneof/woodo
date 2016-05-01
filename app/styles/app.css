@@ -47,16 +47,30 @@ a:active {
 }
 
 .photo-swipe-wrapper {
-  width: 100%;
+  max-width: 600px;
   display: flex;
   flex-direction: row;
-  justify-content: center;
   align-items: center;
   margin: 0 auto;
 }
 
+.photo-swipe-wrapper .ember-view {
+  width: 100%;
+}
+
+.photo-swipe-wrapper a {
+  display: block;
+  width: 100%;
+  text-align: left;
+  margin-bottom: 7rem;
+}
+
+.photo-swipe-wrapper a:nth-child(even) {
+  text-align: right;
+}
+
 .photo-swipe-thumbnail {
-  height: 24rem;
+  height: 28rem;
 }
 
 .page-about {

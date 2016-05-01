@@ -1,6 +1,6 @@
 {
   "name": "woodo",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A photo gallery for my dog, playing w/ Ember.js",
   "author": "Ryan Chu <ryaneof@gmail.com>",
   "license": "MIT",
@@ -10,7 +10,6 @@
   },
   "homepage": "https://github.com/ryaneof/woodo",
   "directories": {
-    "doc": "doc",
     "test": "tests"
   },
   "scripts": {
@@ -21,7 +20,7 @@
   "devDependencies": {
     "broccoli-asset-rev": "^2.2.0",
     "ember-ajax": "0.7.1",
-    "ember-cli": "2.4.0",
+    "ember-cli": "^2.5.0",
     "ember-cli-app-version": "^1.0.0",
     "ember-cli-babel": "^5.1.5",
     "ember-cli-dependency-checker": "^1.2.0",
@@ -44,5 +43,10 @@
   },
   "engines": {
     "node": "5.6.0"
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/ryaneof/woodo/issues"
+  },
+  "main": "ember-cli-build.js",
+  "dependencies": {}
 }
