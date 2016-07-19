@@ -1,7 +1,3 @@
-# static files
-
-/public/images/
-
 # compiled output
 /dist
 /tmp
