@@ -3,6 +3,15 @@ export default function() {
     return {
       data: [{
         type: 'photos',
+        id: 6,
+        attributes: {
+          src: '/images/2016-07-19.jpg',
+          title: 'Play Possum',
+          w: 3772,
+          h: 2829
+        }
+      }, {
+        type: 'photos',
         id: 5,
         attributes: {
           src: '/images/2016-02-18.jpg',
