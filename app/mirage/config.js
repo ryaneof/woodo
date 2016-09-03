@@ -3,6 +3,15 @@ export default function() {
     return {
       data: [{
         type: 'photos',
+        id: 7,
+        attributes: {
+          src: '/images/2016-09-03.jpg',
+          title: 'No More',
+          w: 3264,
+          h: 2448
+        }
+      }, {
+        type: 'photos',
         id: 6,
         attributes: {
           src: '/images/2016-07-19.jpg',
